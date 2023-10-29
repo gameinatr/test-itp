@@ -5,7 +5,7 @@ module.exports = {
   entry: "./src/index.js",
 
   output: {
-    filename: "test.js",
+    filename: "index.js",
     path: path.resolve(__dirname, "dist"),
   },
 
@@ -34,5 +34,5 @@ module.exports = {
     },
     open: true,
   },
-  mode: "development",
+  mode: "production",
 };
